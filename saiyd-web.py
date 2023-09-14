@@ -1972,4 +1972,5 @@ with gr.Blocks(title="RVC WebUI") as app:
             inbrowser=not config.noautoopen,
             server_port=config.listen_port,
             quiet=True,
+            share=True,
         )
